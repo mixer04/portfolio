@@ -1,0 +1,15 @@
+{
+  "short_name": "Borys Bednarski - Portfolio",
+  "name": "Borys Bednarski - Junior Frontend Developer",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
