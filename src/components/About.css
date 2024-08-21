@@ -1,0 +1,125 @@
+.About-me {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    font-size: 24px;
+    backdrop-filter: blur(10px);
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Matter,sans-serif;
+    padding: 3em 2em;
+    margin-bottom: 5em;
+    border-radius: 20px;
+}
+
+.About-me img {
+    height: 12em;
+    border-radius: 30px;
+}
+
+.About-me h2 {
+    font-size: 50px;
+}
+
+.About-me p img {
+    height: 20px;
+    margin-top: -3px
+}
+
+.About-me p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-width: 1000px;
+}
+
+.about2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    font-size: 24px;
+    backdrop-filter: blur(10px);
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Matter,sans-serif;
+    border-radius: 20px;
+}
+
+.about2 a {
+    display: flex;
+    padding: 15px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+
+.about2 a:hover {
+    background-color: rgba(0, 147, 233, 0.7);
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s;
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.about2 a:not(:hover) {
+    transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+@media (max-width: 768px) {
+    .About-me {
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 2em 1em;
+      margin-bottom: 3em;
+    }
+  
+    .About-me img {
+      height: 10em;
+      border-radius: 20px;
+    }
+  
+    .About-me h2 {
+      font-size: 36px;
+    }
+  
+    .About-me p img {
+      height: 16px;
+    }
+  
+    .About-me p {
+      max-width: 800px;
+      font-size: 15px;
+    }
+  
+    .about2 {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .about2 p {
+        font-size: 17px;
+    }
+  
+    .about2 a {
+      padding: 10px 20px;
+      width: 120px;
+      font-size: 17px;
+    }
+  }

@@ -1,0 +1,235 @@
+.card-spotlight {
+    position: relative;
+    border-radius: 1.5rem;
+    border: 1px solid #222;
+    background-color: #111;
+    padding: 2rem;
+    overflow: hidden;
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+    --spotlight-color: rgba(0, 147, 233, 1);
+    display: flex;
+    flex-direction: column;
+    background-color: #16161619;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+
+  .card-spotlight a {
+    color: rgb(0, 147, 233);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: auto;
+    width: auto;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .card-spotlight img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .card-spotlight h3 {
+    margin-top: 10px;
+    font-size: 1.3em;
+    z-index: 1;
+  }
+
+  .card-spotlight .tech {
+        margin-top: -40px;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    .card-spotlight p {
+        z-index: 1;
+        font-size: 0.9em;
+    }
+  
+  .card-spotlight::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 80%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+  }
+  
+  @media (max-width: 768px) {
+   .card-spotlight {
+      width: 80%;
+      padding: 10px;
+    }
+    .card-spotlight p {
+      font-size: 17px;
+    }
+
+    .card-spotlight a {
+      font-size: 17px;
+    }
+
+    .card-spotlight h3 {
+      font-size: 1.2em;
+    }
+
+    .card-spotlight.tech {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+   .card-spotlight {
+      width: 90%;
+    }
+    .card-spotlight p {
+      font-size: 17px;
+    }
+
+    .card-spotlight a {
+      font-size: 17px;
+    }
+
+    .card-spotlight h3 {
+      font-size: 1.2em;
+    }
+
+    .card-spotlight.tech {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 957px) {
+    .card-spotlight {
+      width: 80%;
+      padding: 10px;
+    }
+  }
+  
+  .card-spotlight:hover::before,
+  .card-spotlight:focus-within::before {
+    opacity: 0.6;
+  }
+
+  
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: #16161619;
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 147, 235, 0.2);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.tech {
+  margin-top: -40px;
+  font-size: 20px;
+}
+
+.project a {
+  color: rgb(0, 147, 233);
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: auto;
+  width: auto;
+}
+
+.project a:hover {
+  text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+.project-container {
+  gap: 20px;
+}
+
+.project {
+  width: 80%;
+  padding: 10px;
+}
+
+.project p {
+  font-size: 17px;
+}
+
+.project a {
+  font-size: 17px;
+}
+
+.project h3 {
+  font-size: 1.2em;
+}
+
+.tech {
+  font-size: 16px;
+}
+
+.project:hover {
+  transform: none;
+  box-shadow: none;
+}
+}
+
+@media (max-width: 480px) {
+.project {
+  width: 90%;
+}
+.project p {
+  font-size: 17px;
+}
+
+.project a {
+  font-size: 17px;
+}
+
+.project h3 {
+  font-size: 1em;
+}
+
+.tech {
+  font-size: 14px;
+}
+}

@@ -1,0 +1,186 @@
+
+.Welcome {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.scroll-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.Name {
+    align-items: center;
+    font-size: 90px;
+}
+
+@media (width >= 1500px) {
+    .Name {
+        font-size: 130px;
+    }
+    
+}
+
+.Typing {
+    background: linear-gradient(45deg, rgb(0, 147, 233), rgb(128, 208, 199));
+    background-clip: text;
+    animation: typing 10s infinite;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+@keyframes typing {
+    0%, 92.3488% { content: ""; }
+    1.1395%, 90.2093% { content: "B"; }
+    2.2791%, 89.0698% { content: "Bo"; }
+    3.4186%, 87.9302% { content: "Bor"; }
+    4.5581%, 86.7907% { content: "Bory"; }
+    5.6977%, 85.3721% { content: "Borys"; }
+    6.8372%, 83.5116% { content: "Borys "; }
+    7.9767%, 81.3721% { content: "Borys B"; }
+    8.1163%, 80.2326% { content: "Borys Be"; }
+    9.2558%, 79.0930% { content: "Borys Bed"; }
+    10.7674%, 78.2791% { content: "Borys Bedn"; }
+    11.9070%, 77.1395% { content: "Borys Bedna"; }
+    13.0465%, 76% { content: "Borys Bednar"; }
+    14.1860%, 75% { content: "Borys Bednars"; }
+    15.3256%, 74% { content: "Borys Bednarsk"; }
+    16.4651%, 73% { content: "Borys Bednarski"; }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.Typing:before {
+    content: "";
+    animation: typing 13.5s infinite;
+}
+
+.Typing {
+    --caret: currentcolor;
+  }
+
+.Typing::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    margin-left: 5px;
+    animation: blink 1s linear infinite;
+  }
+
+.Welcome h2 {
+    font-size: 40px;
+    margin-top: -60px;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 90vw;
+    z-index: 0;
+    height: 100vh;
+  }
+  
+  .line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+  }
+  
+  .line::after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 15vh;
+      width: 100%;
+      top: -50%;
+      left: 0;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+      animation: drop 7s 0s infinite;
+      animation-fill-mode: forwards;
+      animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  }
+  
+  .line:nth-child(1) {
+    margin-left: -25%;
+  }
+    
+  .line:nth-child(1)::after {
+    animation-delay: 2s;
+  }
+    .line:nth-child(3) {
+        margin-left: 25%;
+    }
+    .line:nth-child(3)::after {
+        animation-delay: 2.5s;
+    }
+  
+    
+  @keyframes drop {
+    0% { top: -50%; }
+    100% { top: 110%; }
+  }
+
+
+  @media (max-width: 768px) {
+    .Welcome {
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 2em 1em;
+      margin-bottom: 3em;
+    }
+
+    .Welcome h1 {
+      margin-top: -30px;
+      font-size: 30px;
+    }
+  
+    .Welcome h2 {
+      font-size: 22px;
+      margin-top: -30px;
+    }
+
+    .Welcome span {
+      font-size: 30px;
+    }
+  
+    .Name {
+      font-size: 48px;
+    }
+  
+    .Typing {
+      font-size: 24px;
+    }
+  
+    .lines {
+      width: 100vw;
+    }
+  
+    .line {
+      width: 2px;
+    }
+  
+    .line::after {
+      height: 10vh;
+    }
+  }

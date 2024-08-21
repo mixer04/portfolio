@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "TransitApp",
+    "technology": "React.js",
+    "description": "TransitApp is a web application designed to provide real-time transit information, including live driver locations and various information about fleet.",
+    "link": "https://github.com/mixer04/TransitApp",
+    "image": "./images/transitapp.webp"
+  },
+  {
+    "id": 2,
+    "title": "PasswordManager",
+    "technology": "Python",
+    "description": "A simple password manager app written in Python using the cryptography library for encryption and decryption.",
+    "link": "https://github.com/mixer04/PasswordManager",
+    "image": "./images/passwordmanager.webp"
+  },
+  {
+    "id": 3,
+    "title": "MainstageApp",
+    "technology": "Swift",
+    "description": "MainstageApp provides information about my rock band, offering fans a place to stay updated with our latest news.",
+    "link": "https://github.com/mixer04/MainstageApp",
+    "image": "./images/mainstageapp.webp"
+  },
+  {
+    "id": 4,
+    "title": "ExchangeRateApp",
+    "technology": "Python",
+    "description": "A simple Python application that uses the ExchangeRate-API to fetch real-time exchange rates.",
+    "link": "https://github.com/mixer04/ExchangeRateApp",
+    "image": "./images/exchangerateapp.webp"
+  },
+  {
+    "id": 5,
+    "title": "ForecastApp",
+    "technology": "Python",
+    "description": "This Python application uses the OpenWeatherMap API to fetch and display weather forecasts for a given city.",
+    "link": "https://github.com/mixer04/ForecastApp",
+    "image": "./images/weatherapp.webp"
+  },
+  {
+    "id": 6,
+    "title": "BooringAIO",
+    "technology": "Python",
+    "description": "Old CLI Nike Bot which is authenticated by the Hyper license manager. It was written to generate activity on Nike account to have better chances on raffles.",
+    "link": "https://github.com/mixer04/BooringAIO",
+    "image": "./images/booringaio.webp"
+  }
+]
