@@ -53,6 +53,7 @@
     .card-spotlight p {
         z-index: 1;
         font-size: 0.9em;
+        margin-bottom: 2rem;
     }
   
   .card-spotlight::before {

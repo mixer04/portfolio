@@ -1,14 +1,22 @@
 [
   {
     "id": 1,
-    "title": "TransitApp",
+    "title": "FleetWise",
     "technology": "React.js",
-    "description": "TransitApp is a web application designed to provide real-time transit information, including live driver locations and various information about fleet.",
-    "link": "https://github.com/mixer04/TransitApp",
-    "image": "./images/transitapp.webp"
+    "description": "FleetWise is a web application designed to provide real-time transit information, including live driver locations and various information about fleet.",
+    "link": "https://github.com/mixer04/FleetWise-demo",
+    "image": "./images/fleetwise.webp"
   },
   {
     "id": 2,
+    "title": "Euromaster Bednarscy",
+    "technology": "React.js",
+    "description": "Website for a car repair shop with passenger car and truck tire replacement services and mobile service.",
+    "link": "https://opony-rzeszow.pl",
+    "image": "./images/euromaster.webp"
+  },
+  {
+    "id": 3,
     "title": "PasswordManager",
     "technology": "Python",
     "description": "A simple password manager app written in Python using the cryptography library for encryption and decryption.",
@@ -16,7 +24,7 @@
     "image": "./images/passwordmanager.webp"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "MainstageApp",
     "technology": "Swift",
     "description": "MainstageApp provides information about my rock band, offering fans a place to stay updated with our latest news.",
@@ -24,7 +32,7 @@
     "image": "./images/mainstageapp.webp"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "ExchangeRateApp",
     "technology": "Python",
     "description": "A simple Python application that uses the ExchangeRate-API to fetch real-time exchange rates.",
@@ -32,7 +40,7 @@
     "image": "./images/exchangerateapp.webp"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "ForecastApp",
     "technology": "Python",
     "description": "This Python application uses the OpenWeatherMap API to fetch and display weather forecasts for a given city.",
@@ -40,7 +48,7 @@
     "image": "./images/weatherapp.webp"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "BooringAIO",
     "technology": "Python",
     "description": "Old CLI Nike Bot which is authenticated by the Hyper license manager. It was written to generate activity on Nike account to have better chances on raffles.",
