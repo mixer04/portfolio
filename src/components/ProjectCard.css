@@ -36,6 +36,7 @@
     height: auto;
     border-radius: 5px;
     z-index: 1;
+    aspect-ratio: 16/9;
   }
   
   .card-spotlight h3 {

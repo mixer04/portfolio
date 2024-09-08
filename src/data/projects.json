@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "FleetWise",
+    "title": "FleetInspecta",
     "technology": "React.js",
-    "description": "FleetWise is a web application designed to provide real-time transit information, including live driver locations and various information about fleet.",
-    "link": "https://github.com/mixer04/FleetWise-demo",
-    "image": "./images/fleetwise.webp"
+    "description": "FleetInspecta is a web application designed to store various information about drivers, vehicles and their maintenance schedules.",
+    "link": "https://fleetinspecta.netlify.app",
+    "image": "./images/fleetinspecta.webp"
   },
   {
     "id": 2,
