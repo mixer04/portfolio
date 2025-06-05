@@ -6,6 +6,7 @@ import linkedinIcon from '../assets/images/linkedin.png';
 
 
 const Contact = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <div className='Contact-me'>
             <h2>Contact Me</h2>
@@ -22,7 +23,7 @@ const Contact = () => {
                 </a>
 
             </div>
-            <p>© 2024 Borys Bednarski. All rights reserved.</p>
+            <p>© {currentYear} Borys Bednarski. All rights reserved.</p>
         </div>
     )
 }

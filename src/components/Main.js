@@ -22,7 +22,7 @@ const Main = ({ aboutRef }) => {
           <h1 className="Name">
               I'm <span className="Typing"></span>
           </h1>
-          <h2>Junior Frontend Developer</h2>
+          <h2>Web Developer</h2>
         <div className="scroll-down">
           <Scroll onClick={handleScroll}/>
         </div>

@@ -1,0 +1,17 @@
+[  {
+    "id": 7,
+    "title": "ExchangeRateApp",
+    "technology": "Python",
+    "description": "A simple Python application that uses the ExchangeRate-API to fetch real-time exchange rates.",
+    "link": "https://github.com/mixer04/ExchangeRateApp",
+    "image": "./images/exchangerateapp.webp"
+  },
+  {
+    "id": 8,
+    "title": "ForecastApp",
+    "technology": "Python",
+    "description": "This Python application uses the OpenWeatherMap API to fetch and display weather forecasts for a given city.",
+    "link": "https://github.com/mixer04/ForecastApp",
+    "image": "./images/weatherapp.webp"
+  }
+]

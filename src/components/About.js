@@ -14,7 +14,7 @@ const About = () => {
             </p>
             <div className='about2'>
                 <p>
-                    My name is Borys Bednarski, a passionate Junior Frontend Web Developer. I specialize in building responsive and user-friendly web applications. I am constantly learning and exploring new technologies to enhance my skills and stay updated with industry trends.
+                    My name is Borys Bednarski, a passionate Web Developer. I specialize in building responsive and user-friendly web applications. I am constantly learning and exploring new technologies to enhance my skills and stay updated with industry trends.
                 </p>
                 <p>
                     <strong>Here you can download my CV file:</strong>
